@@ -1,0 +1,65 @@
+form{
+  display: flex;
+  align-items: center;
+}
+
+input{
+  padding: 7px;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  outline: black;
+  width: 250px;
+  margin-right: 0px;
+  color: white;
+}
+
+button{
+  padding: 7px;
+  border: 1px solid white;
+  border-left: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+  color: rgb(103, 194, 255);
+}
+
+.Logo {
+  width: 70px;
+  height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px white solid;
+}
+
+.navbar a{
+    color: rgb(103, 194, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.navbar a:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+
+.nav-links li {
+    margin: 15px;
+  }
